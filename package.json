@@ -1,0 +1,24 @@
+{
+  "name": "trafficWatcher",
+  "version": "1.0",
+  "author": "Steven McGrath <steve@chigeek.com>",
+  "homepage": "https://github.com/stevemcgrath/trafficwatch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevemcgrath/trafficwatch"
+  },
+  "bugs": {
+    "url": "https://github.com/SteveMcGrath/trafficwatch/issues"
+  },
+  "license": "GPL-3.0",
+  "bin": {
+    "trafficwatch": "node ./trafficWatcher.js"
+  },
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "gifencoder": "^1.0.6",
+    "gm": "^1.23.0",
+    "png-file-stream": "^1.0.0",
+    "webshot": "^0.18.0"
+  }
+}
